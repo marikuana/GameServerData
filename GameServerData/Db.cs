@@ -19,7 +19,7 @@ namespace GameServerData
 
             modelBuilder.Entity<Account>().HasData(new Account()
             {
-                Id = Guid.NewGuid(),
+                Id = 1,
                 Login = "Marikuana",
                 Password = "123",
                 Email = "Marikuana@gmail.com"
